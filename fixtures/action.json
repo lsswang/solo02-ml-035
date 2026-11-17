@@ -1,0 +1,45 @@
+{
+  "current": [
+    0,
+    0
+  ],
+  "target": 1,
+  "domains": [
+    {
+      "interval": [
+        0,
+        3
+      ]
+    },
+    {
+      "values": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "up_cost": [
+    1,
+    2
+  ],
+  "down_cost": [
+    2,
+    1
+  ],
+  "change_fee": [
+    0.2,
+    0.3
+  ],
+  "constraints": {
+    "A": [
+      [
+        1,
+        -1
+      ]
+    ],
+    "b": [
+      -1
+    ]
+  }
+}
